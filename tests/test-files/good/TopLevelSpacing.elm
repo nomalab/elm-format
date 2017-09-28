@@ -2,11 +2,11 @@ module Main exposing (..)
 
 
 { id, class, classList } =
-    CssCommon.helpers
+  CssCommon.helpers
 
 
 type alias Model =
-    { mnemonic : String
-    , operand : String
-    , offset : Int
-    }
+  { mnemonic : String
+  , operand : String
+  , offset : Int
+  }

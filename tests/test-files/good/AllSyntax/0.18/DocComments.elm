@@ -56,7 +56,7 @@ Followed by a paragraph.
     import MyModule
 
     myResult =
-        x
+      x
 
 
 ## Example Elm expressions
@@ -117,7 +117,7 @@ Nested with loose items
 
 
 x =
-    ()
+  ()
 
 
 {-| Code block following a list. In this case we fallback to a fenced code block
@@ -133,10 +133,10 @@ Increment a number.
 
 ```
 increment x =
-    x + 1
+  x + 1
 ```
 
 -}
 increment : Int -> Int
 increment x =
-    x + 1
+  x + 1
