@@ -4,7 +4,7 @@ var path = require("path");
 var packageInfo = require(path.join(__dirname, "package.json"));
 var binVersion = packageInfo.version.replace(/\.[0-9]*$/, "");
 
-var root = "https://github.com/avh4/elm-format/releases/download/" +
+var root = "https://github.com/nomalab/elm-format/releases/download/" +
   binVersion +
   "/elm-format-0.18-" +
   binVersion;

@@ -1,7 +1,7 @@
 {
-  "name": "elm-format",
-  "version": "0.7.0-exp",
-  "description": "Install elm-format",
+  "name": "elm-format-2-spaces",
+  "version": "0.7.2-exp",
+  "description": "Install elm-format but with 2 spaces for tabs",
   "preferGlobal": true,
   "main": "index.js",
   "scripts": {
@@ -11,21 +11,21 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/avh4/elm-format.git"
+    "url": "git+https://github.com/nomalab/elm-format.git"
   },
   "keywords": [
     "elm-format"
   ],
-  "author": "Aaron VonderHaar",
+  "author": "Nomalab",
   "license": "BSD-3-Clause",
   "bugs": {
-    "url": "https://github.com/avh4/elm-format/issues"
+    "url": "https://github.com/nomalab/elm-format/issues"
   },
   "files": [
     "index.js",
     "bin"
   ],
-  "homepage": "https://github.com/avh4/elm-format",
+  "homepage": "https://github.com/nomalab/elm-format",
   "bin": {
     "elm-format": "bin/elm-format"
   },
